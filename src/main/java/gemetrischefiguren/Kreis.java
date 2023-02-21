@@ -2,7 +2,7 @@ package gemetrischefiguren;
 
 public class Kreis extends GeometrischeFigur {
 
-    private int radius;
+    private int radius = 1;
 
     private Point mittelpunkt;
     
