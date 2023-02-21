@@ -1,5 +1,7 @@
 package gemetrischefiguren;
 
+import java.awt.*;
+
 public abstract class GeometrischeFigur {
 
     protected String farbe;
@@ -18,5 +20,7 @@ public abstract class GeometrischeFigur {
     public void anzeigen() {
 
     }
+
+    public abstract void draw(Graphics2D g2d);
 
 }
