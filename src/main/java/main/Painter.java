@@ -1,6 +1,6 @@
 package main;
 
-import gemetrischefiguren.Kreis;
+import geometrischefiguren.Kreis;
 
 public class Painter {
     public static void main(String[] args) throws InterruptedException {

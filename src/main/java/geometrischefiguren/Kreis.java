@@ -1,7 +1,6 @@
-package gemetrischefiguren;
+package geometrischefiguren;
 
 import java.awt.*;
-import java.awt.geom.Ellipse2D;
 
 public class Kreis extends GeometrischeFigur {
 

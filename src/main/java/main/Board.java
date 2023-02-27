@@ -1,6 +1,6 @@
 package main;
 
-import gemetrischefiguren.GeometrischeFigur;
+import geometrischefiguren.GeometrischeFigur;
 
 import javax.swing.*;
 import java.awt.*;

@@ -1,4 +1,4 @@
-package gemetrischefiguren;
+package geometrischefiguren;
 
 import java.awt.*;
 
