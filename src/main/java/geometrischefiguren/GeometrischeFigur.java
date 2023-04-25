@@ -2,12 +2,19 @@ package geometrischefiguren;
 
 import java.awt.*;
 
+/**
+ * Klassendokumentation
+ */
 public abstract class GeometrischeFigur {
 
-    protected String farbe;
+    protected Color farbe;
 
     protected int zoomfaktor;
 
+    public GeometrischeFigur() {
+        farbe = Color.BLACK;
+        zoomfaktor = 100;
+    }
 
     public void setzteFarbe(String farbe) {
 
@@ -21,6 +28,22 @@ public abstract class GeometrischeFigur {
 
     }
 
+    public Color getFarbe() {
+        return farbe;
+    }
+
+    public void setFarbe(Color farbe) {
+        this.farbe = farbe;
+    }
+
     public abstract void draw(Graphics2D g2d);
 
+    /**
+     * Zooms the object
+     * @param zoomfaktor 100 means no zoom
+     *
+     */
+    public void setZoomfaktor(int zoomfaktor) {
+        this.zoomfaktor = zoomfaktor;
+    }
 }
